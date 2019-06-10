@@ -1,0 +1,14 @@
+package com.imesomeone.crudapi.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MyDao {
+
+	private static Map<Integer,String> data;
+	
+	static{
+		data =  new ArrayList<Integer,String>();
+	}
+	
+}

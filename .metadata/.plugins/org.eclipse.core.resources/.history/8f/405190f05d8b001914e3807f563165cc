@@ -1,0 +1,14 @@
+package com.imesomeone.crudapi.dao;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MyDao {
+
+	private static Map<Integer,String> data;
+	
+	static{
+		data =  new HashMap<Integer,String>();
+	}
+	
+}
